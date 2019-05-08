@@ -33,7 +33,7 @@ public class MainController {
 			mav.setViewName("main"); 
 		}else {
 		mav.setViewName("result");
-		mav.addObject("message", "Product was inserted successfully");
+		mav.addObject("message", "El producto has sido insertado correctamente");
 		}
 		return mav;
 	}
